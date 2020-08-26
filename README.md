@@ -1,9 +1,9 @@
 # trundlerPy
 
 [![Documentation Status](https://readthedocs.org/projects/trundlerpy/badge/?version=latest)](https://trundlerpy.readthedocs.io/en/latest/?badge=latest)
-[![Build Status](https://travis-ci.org/lcalcagni/trundlerPy.svg?branch=master)](https://travis-ci.org/lcalcagni/trundlerPy)
-[![codecov](https://codecov.io/gh/lcalcagni/trundlerPy/branch/master/graph/badge.svg)](https://codecov.io/gh/lcalcagni/trundlerPy)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a19d4a42c8ef4106827a910d447f4462)](https://app.codacy.com/manual/lcalcagni/trundlerPy?utm_source=github.com&utm_medium=referral&utm_content=lcalcagni/trundlerPy&utm_campaign=Badge_Grade_Dashboard)
+[![Build Status](https://travis-ci.com/datawookie/trundlerpy.svg?branch=master)](https://travis-ci.com/github/datawookie/trundlerpy)
+[![codecov](https://codecov.io/gh/datawookie/trundlerpybranch/master/graph/badge.svg)](https://codecov.io/gh/datawookie/trundlerpy)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8c15645191c04d50b4f98efee6cee435)](https://www.codacy.com/manual/datawookie/trundlerpy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=datawookie/trundlerpy&amp;utm_campaign=Badge_Grade)
 
 This is a Python package for the Trundler API.
 
@@ -42,15 +42,11 @@ tr = trundlerPy(key = key)
 
 ### Retailers
 
-#### List of Retailers
-
 Use `retailer()` to get a list of retailers.
 
 ```python
 tr.retailer()
 ```
-
-#### Specific Retailer
 
 You can access the details for a specific retailer.
 
@@ -59,8 +55,6 @@ tr.retailer(45)
 ```
 
 ### Products
-
-#### List of product for specific retailer
 
 Get a list of products for a specific retailer.
 
@@ -74,15 +68,11 @@ Products can be filtered by name and brand.
 tr.retailer_products(5, product = "coffee", brand = "nespresso")
 ```
 
-#### Product Details
-
-Get information on a specific product, filtering it by ID
+Get information on a specific product, filtering it by ID.
 
 ```python
 tr.product(530290)
 ```
-
-#### Product Prices
 
 Get price history data for a specific product.
 
