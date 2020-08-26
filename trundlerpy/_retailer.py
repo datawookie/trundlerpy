@@ -2,8 +2,8 @@ import requests
 import json
 import pandas as pd
 
-from trundlerpy._checkfuncions import check_params, check_response
-from trundlerpy._params import parameters
+from ._checkfuncions import check_params, check_response
+from ._params import parameters
 
 
 def _get_retailer(self, host, headers, params):
