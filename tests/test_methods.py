@@ -8,9 +8,9 @@ sys.path.append(parent)
 
 from trundlerPy import trundlerPy
 
-API_KEY = os.environ['API_KEY']
+TRUNDLER_KEY = os.environ['TRUNDLER_KEY']
 
-tr = trundlerPy(key=API_KEY)
+tr = trundlerPy(key=TRUNDLER_KEY)
 
 
 # Test methods

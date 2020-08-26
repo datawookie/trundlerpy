@@ -45,7 +45,7 @@ Storing your keys received from APIs and other sensitive information in a secure
 
 .. code-block:: python
 
-   key = os.getenv('API_KEY')
+   key = os.getenv('TRUNDLER_KEY')
 
 |
 

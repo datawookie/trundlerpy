@@ -29,7 +29,7 @@ variables to keep our credentials safe.
 ```python
 import os
 
-key = os.getenv('TRUNDLER_API_KEY')
+key = os.getenv('TRUNDLER_KEY')
 ```
 
 ## Usage
