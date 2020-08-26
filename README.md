@@ -1,5 +1,6 @@
 # trundlerPy
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4d890254981a4c2bb41e5e78c856777f)](https://app.codacy.com/manual/datawookie/trundlerpy?utm_source=github.com&utm_medium=referral&utm_content=datawookie/trundlerpy&utm_campaign=Badge_Grade_Dashboard)
 [![Documentation Status](https://readthedocs.org/projects/trundlerpy/badge/?version=latest)](https://trundlerpy.readthedocs.io/en/latest/?badge=latest)
 [![Build Status](https://travis-ci.org/lcalcagni/trundlerPy.svg?branch=master)](https://travis-ci.org/lcalcagni/trundlerPy)
 [![codecov](https://codecov.io/gh/lcalcagni/trundlerPy/branch/master/graph/badge.svg)](https://codecov.io/gh/lcalcagni/trundlerPy)
