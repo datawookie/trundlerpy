@@ -37,13 +37,11 @@ make -C docs/ html
 ## Set the API Key
 
 To access the full API you’ll need to first specify an API key.
-To obtain a key, please get in touch. Contact details are in DESCRIPTION
-(Will be).
+To obtain a key, please [get in touch](https://www.trundler.dev/).
 
 Storing your keys received from APIs and other sensitive information in a
 secure file or as an environment variable is considered best practice to avoid
-any potential malicious activity. Therefore, we save the API key as environment
-variables to keep our credentials safe.  
+any potential malicious activity.
 
 ```python
 import os
