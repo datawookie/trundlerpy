@@ -15,6 +15,17 @@ Install from GitHub.
 !pip install git+https://github.com/datawookie/trundlerpy
 ```
 
+## Testing
+
+To run the test suite:
+
+1. Set the `TRUNDLER_KEY` environment variable.
+2. Launch the tests with
+
+```bash
+pytest
+```
+
 ## Set the API Key
 
 To access the full API you’ll need to first specify an API key.

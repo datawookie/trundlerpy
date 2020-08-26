@@ -3,8 +3,10 @@ import os
 import pytest
 from pandas import DataFrame
 
-parent = os.path.dirname(os.getcwd())
-sys.path.append(parent)
+# Add to path: current working directory.
+sys.path.append(os.getcwd())
+# Add to path: parent of current working directory.
+sys.path.append(os.path.dirname(os.getcwd()))
 
 from trundlerpy import trundlerPy
 
