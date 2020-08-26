@@ -26,6 +26,14 @@ To run the test suite:
 pytest
 ```
 
+## Documentation
+
+To build the documentation:
+
+```bash
+make -C docs/ html
+```
+
 ## Set the API Key
 
 To access the full API you’ll need to first specify an API key.
