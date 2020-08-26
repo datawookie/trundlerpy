@@ -10,7 +10,7 @@ install:
 - python setup.py install
 script:
 - export TRUNDLER_KEY=$TRUNDLER_KEY
-- coverage run --source trundlerPy -m py.test
+- coverage run --source trundlerpy -m py.test
 - coverage report
 after_success:
 - coveralls

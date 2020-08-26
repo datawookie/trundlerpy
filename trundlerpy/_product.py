@@ -2,8 +2,8 @@ import requests
 import json
 import pandas as pd
 
-from trundlerPy._checkfuncions import check_params, check_response
-from trundlerPy._params import parameters
+from trundlerpy._checkfuncions import check_params, check_response
+from trundlerpy._params import parameters
 
 def _get_products(self, host, headers, params):
     """Describe this method here."""

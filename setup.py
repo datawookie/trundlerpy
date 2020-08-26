@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'trundlerPy'
+PACKAGE_NAME = 'trundlerpy'
 AUTHOR = ''
 AUTHOR_EMAIL = ''
-URL = 'https://github.com/lcalcagni/trundlerPy'
+URL = 'https://github.com/datawookie/trundlerpy'
 
 LICENSE = ''
 DESCRIPTION = 'Trundler Python Package'

@@ -1,18 +1,18 @@
 
-trundlerPy
+trundlerpy
 ==========
 
 .. image:: https://readthedocs.org/projects/trundlerpy/badge/?version=latest
    :target: https://trundlerpy.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
-.. image:: https://travis-ci.org/lcalcagni/trundlerPy.svg?branch=master
-   :target: https://travis-ci.org/lcalcagni/trundlerPy
+.. image:: https://travis-ci.com/datawookie/trundlerpy.svg?branch=master
+   :target: https://travis-ci.com/github/datawookie/trundlerpy
    :alt: Build Status
-.. image:: https://codecov.io/gh/lcalcagni/trundlerPy/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/lcalcagni/trundlerPy
+.. image:: https://codecov.io/gh/datawookie/trundlerpybranch/master/graph/badge.svg
+   :target: https://codecov.io/gh/datawookie/trundlerpy
    :alt: codecov
-.. image:: https://api.codacy.com/project/badge/Grade/a19d4a42c8ef4106827a910d447f4462
-   :target: https://app.codacy.com/manual/lcalcagni/trundlerPy?utm_source=github.com&utm_medium=referral&utm_content=lcalcagni/trundlerPy&utm_campaign=Badge_Grade_Dashboard
+.. image:: https://app.codacy.com/project/badge/Grade/8c15645191c04d50b4f98efee6cee435
+   :target: https://www.codacy.com/manual/datawookie/trundlerpy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=datawookie/trundlerpy&amp;utm_campaign=Badge_Grade
    :alt: Codacy Badge
 
 
@@ -27,7 +27,7 @@ Install from GitHub.
 
 .. code-block:: python
 
-   pip install git+https://github.com/lcalcagni/trundlerPy
+   pip install git+https://github.com/datawookie/trundlerpy
 
 |
 
@@ -54,7 +54,7 @@ Usage
 
 .. code-block:: python
 
-   from trundlerPy import trundlerPy
+   from trundlerpy import trundlerPy
 
 .. code-block:: python
 

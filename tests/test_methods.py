@@ -6,7 +6,7 @@ from pandas import DataFrame
 parent = os.path.dirname(os.getcwd())
 sys.path.append(parent)
 
-from trundlerPy import trundlerPy
+from trundlerpy import trundlerPy
 
 TRUNDLER_KEY = os.environ['TRUNDLER_KEY']
 

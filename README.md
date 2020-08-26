@@ -1,4 +1,4 @@
-# trundlerPy
+# trundlerpy
 
 [![Documentation Status](https://readthedocs.org/projects/trundlerpy/badge/?version=latest)](https://trundlerpy.readthedocs.io/en/latest/?badge=latest)
 [![Build Status](https://travis-ci.com/datawookie/trundlerpy.svg?branch=master)](https://travis-ci.com/github/datawookie/trundlerpy)
@@ -12,7 +12,7 @@ This is a Python package for the Trundler API.
 Install from GitHub.
 
 ```bash
-!pip install git+https://github.com/lcalcagni/trundlerPy
+!pip install git+https://github.com/datawookie/trundlerpy
 ```
 
 ## Set the API Key
@@ -35,7 +35,7 @@ key = os.getenv('TRUNDLER_KEY')
 ## Usage
 
 ```python
-from trundlerPy import trundlerPy
+from trundlerpy import trundlerPy
 
 tr = trundlerPy(key = key)
 ```
