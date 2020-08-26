@@ -5,8 +5,8 @@ HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
 PACKAGE_NAME = 'trundlerpy'
-AUTHOR = ''
-AUTHOR_EMAIL = ''
+AUTHOR = 'Laura Calcagni, Andrew B. Collier'
+AUTHOR_EMAIL = 'l.calcagni@gmail.com, andrew@exegetic.biz'
 URL = 'https://github.com/datawookie/trundlerpy'
 
 LICENSE = ''
