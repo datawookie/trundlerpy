@@ -52,9 +52,9 @@ key = os.getenv('TRUNDLER_KEY')
 ## Usage
 
 ```python
-from trundlerpy import trundlerPy
+from trundlerpy import Trundler
 
-tr = trundlerPy(key = key)
+tr = Trundler(key = key)
 ```
 
 ### Retailers
