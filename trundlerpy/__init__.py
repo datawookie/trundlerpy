@@ -1,4 +1,4 @@
-class trundlerPy(object):
+class Trundler(object):
     r"""
     Wrapper class for the Trundler API.
     Attributes

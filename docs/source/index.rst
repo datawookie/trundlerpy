@@ -54,11 +54,11 @@ Usage
 
 .. code-block:: python
 
-   from trundlerpy import trundlerPy
+   from trundlerpy import Trundler
 
 .. code-block:: python
 
-   tr = trundlerPy(key = key)
+   tr = Trundler(key = key)
 
 |
 
