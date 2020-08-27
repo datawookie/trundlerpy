@@ -8,11 +8,11 @@ sys.path.append(os.getcwd())
 # Add to path: parent of current working directory.
 sys.path.append(os.path.dirname(os.getcwd()))
 
-from trundlerpy import trundlerPy
+from trundlerpy import Trundler
 
 TRUNDLER_KEY = os.environ['TRUNDLER_KEY']
 
-tr = trundlerPy(key=TRUNDLER_KEY)
+tr = Trundler(key=TRUNDLER_KEY)
 
 
 # Test methods

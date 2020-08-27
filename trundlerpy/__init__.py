@@ -1,4 +1,4 @@
-class trundlerPy(object):
+class Trundler(object):
     r"""
     Wrapper class for the Trundler API.
     Attributes
@@ -11,7 +11,7 @@ class trundlerPy(object):
     """
     def __init__(self, key):
         r"""
-        Initialization method of the :code:`Trundlerpy` class.
+        Initialization method of the :code:`trundlerPy` class.
         Parameters
         ----------
         key : str
@@ -28,13 +28,6 @@ class trundlerPy(object):
             'X-Api-Key': self.key,
         }
 
-    # Imported methods
     from ._retailer import retailer, retailer_products
     from ._product import products, product, product_prices
     from ._checkfuncions import check_params, check_response
-
-
-
-
-
-
