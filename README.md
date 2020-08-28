@@ -12,7 +12,7 @@ This is a Python package for the Trundler API.
 Install from GitHub.
 
 ```bash
-!pip install git+https://github.com/datawookie/trundlerpy
+!pip3 install git+https://github.com/datawookie/trundlerpy
 ```
 
 ## Testing
