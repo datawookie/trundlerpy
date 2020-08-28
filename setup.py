@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 PACKAGE_NAME = 'trundlerpy'
 AUTHOR = 'Laura Calcagni, Andrew B. Collier'
 AUTHOR_EMAIL = 'l.calcagni@gmail.com, andrew@exegetic.biz'
