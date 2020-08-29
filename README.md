@@ -9,10 +9,20 @@ This is a Python package for the Trundler API.
 
 ## Installation
 
+### Install from PyPI
+
+Install from PyPI.
+
+```bash
+pip3 install trundlerpy
+```
+
+### Install from GitHub
+
 Install from GitHub.
 
 ```bash
-!pip3 install git+https://github.com/datawookie/trundlerpy
+pip3 install git+https://github.com/datawookie/trundlerpy
 ```
 
 ## Testing
