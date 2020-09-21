@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'TrundlerPy'
-copyright = '2020, Laura Calcagni'
-author = 'Laura Calcagni'
+project = 'trundlerpy'
+copyright = '2020, Andrew Collier, Laura Calcagni'
+author = 'Andrew Collier, Laura Calcagni'
 
 
 # -- General configuration ---------------------------------------------------
@@ -27,8 +27,7 @@ author = 'Laura Calcagni'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['m2r2']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -49,6 +48,14 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 master_doc = 'index'
+
+html_static_path = []
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
