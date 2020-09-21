@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'TrundlerPy'
-copyright = '2020, Laura Calcagni'
-author = 'Laura Calcagni'
+project = 'trundlerpy'
+copyright = '2020, Andrew Collier, Laura Calcagni'
+author = 'Andrew Collier, Laura Calcagni'
 
 
 # -- General configuration ---------------------------------------------------
@@ -52,3 +52,9 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 master_doc = 'index'
+
+extensions = [
+    'm2r2'
+]
+# source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
