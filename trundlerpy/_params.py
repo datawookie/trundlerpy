@@ -1,6 +1,7 @@
 parameters = {
   'retailer': {
     'req_params': {},
+    'req_or_params': {},
     'opt_params': {
       'id': int
     }
@@ -9,6 +10,7 @@ parameters = {
     'req_params': {
       'id': int
     },
+    'req_or_params': {},
     'opt_params': {
       'limit': int,
       'offset': int,
@@ -16,6 +18,7 @@ parameters = {
       'ignore_case': bool,
       'product': str,
       'brand': str,
+      'sku':str,
       'head': bool
     }
   },
@@ -23,10 +26,12 @@ parameters = {
     'req_params': {
       'id': int
     },
-    'opt_params': {}
+    'req_or_params': {},
+    'opt_params': {}   
   },
   'products': {
     'req_params': {},
+    'req_or_params': {},
     'opt_params': {
       'limit': int,
       'offset': int,
@@ -34,13 +39,15 @@ parameters = {
       'ignore_case': bool,
       'product': str,
       'brand': str,
-      'barcode': str
+      'barcode': str,
+      'sku':str
     }
   },
   'product_prices': {
     'req_params': {
       'id': int
     },
+    'req_or_params': {},
     'opt_params': {
       'limit': int,
       'offset': int
