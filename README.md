@@ -102,13 +102,13 @@ tr.retailer_products(5, sku="7630047615160")
 A similar search can be applied across all retailers.
 
 ```python
-tr.products(sku="7630047615160")
+tr.products(product = "coffee")
 ```
 
 ```python
-products(product = "hand sanitiser")
-
+tr.products(sku="7630047615160")
 ```
+
 Get information on a specific product, filtering it by ID.
 
 ```python
