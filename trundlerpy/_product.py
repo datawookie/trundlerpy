@@ -30,7 +30,7 @@ def _get_product(self, host, headers, params):
     endpoint = f"/product/{id}"
 
     response = requests.get(f"{self.host}{endpoint}", headers=self.headers)
-
+    
     # Check response
     check_response(response)
 
@@ -62,13 +62,14 @@ def _get_product_prices(self, host, headers, params):
 
 
 def products(self, **kwargs):
-    """Find products by name or brand."""
+    """Find products by name, brand or sku."""
     # Set required and optional params
-    req_params = parameters['products']['req_params']
-    opt_params = parameters['products']['opt_params']
+    req_params      = parameters['products']['req_params']
+    req_or_params   = parameters['products']['req_or_params']
+    opt_params      = parameters['products']['opt_params']
 
     # Check params
-    params = check_params(req_params, opt_params, kwargs)
+    params = check_params(req_params, req_or_params, opt_params, kwargs)
 
     return _get_products(self, self.host, self.headers, params)
 
@@ -76,8 +77,9 @@ def products(self, **kwargs):
 def product(self, id=None):
     """Details for a specific product."""
     # Set required and optional params
-    req_params = parameters['product']['req_params']
-    opt_params = parameters['product']['opt_params']
+    req_params      = parameters['product']['req_params']
+    req_or_params   = parameters['product']['req_or_params']
+    opt_params      = parameters['product']['opt_params']
 
     # Convert to dict to check
     if id is not None:
@@ -86,7 +88,7 @@ def product(self, id=None):
         args = {}
 
     # Check params
-    params = check_params(req_params, opt_params, args)
+    params = check_params(req_params, req_or_params, opt_params, args)
 
     return _get_product(self, self.host, self.headers, params)
 
@@ -94,8 +96,9 @@ def product(self, id=None):
 def product_prices(self, id=None):
     """Prices for a specific product."""
     # Set required and optional params
-    req_params = parameters['product_prices']['req_params']
-    opt_params = parameters['product_prices']['opt_params']
+    req_params      = parameters['product_prices']['req_params']
+    req_or_params   = parameters['product_prices']['req_or_params']
+    opt_params      = parameters['product_prices']['opt_params']
 
     # Convert to dict to check
     if id is not None:
@@ -104,6 +107,6 @@ def product_prices(self, id=None):
         args = {}
 
     # Check params
-    params = check_params(req_params, opt_params, args)
+    params = check_params(req_params, req_or_params, opt_params, args)
 
     return _get_product_prices(self, self.host, self.headers, params)
