@@ -74,29 +74,31 @@ def _get_retailer_prods(self, host, headers, params):
 def retailer(self, id=None, **kwargs):
     """Describe this method here."""
     # Set required and optional params
-    req_params = parameters['retailer']['req_params']
-    opt_params = parameters['retailer']['opt_params']
+    req_params      = parameters['retailer']['req_params']
+    req_or_params   = parameters['retailer']['req_or_params']
+    opt_params      = parameters['retailer']['opt_params']
 
     # Add to dict to check
     if id is not None:
         kwargs.update({'id': id})
 
     # Check params
-    params = check_params(req_params, opt_params, kwargs)
+    params = check_params(req_params, req_or_params, opt_params, kwargs)
 
     return _get_retailer(self, self.host, self.headers, params)
 
 
 def retailer_products(self, id=None, **kwargs):
     """Describe this method here."""
-    req_params = parameters['retailer_products']['req_params']
-    opt_params = parameters['retailer_products']['opt_params']
+    req_params      = parameters['retailer_products']['req_params']
+    req_or_params   = parameters['retailer_products']['req_or_params']
+    opt_params      = parameters['retailer_products']['opt_params']
 
     # Add to dict to check
     if id is not None:
         kwargs.update({'id': id})
 
     # Check params
-    params = check_params(req_params, opt_params, kwargs)
+    params = check_params(req_params, req_or_params, opt_params, kwargs)
 
     return _get_retailer_prods(self, self.host, self.headers, params)
