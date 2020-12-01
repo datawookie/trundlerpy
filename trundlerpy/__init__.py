@@ -30,4 +30,4 @@ class Trundler(object):
 
     from ._retailer import retailer, retailer_products
     from ._product import products, product, product_prices
-    from ._checkfuncions import check_params, check_response
+    from ._checkfunctions import check_params, check_response

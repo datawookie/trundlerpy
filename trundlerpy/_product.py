@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 
-from ._checkfuncions import check_params, check_response
+from ._checkfunctions import check_params, check_response
 from ._params import parameters
 
 def _get_products(self, host, headers, params):
