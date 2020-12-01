@@ -32,7 +32,6 @@ def check_params(req_params, req_or_params, opt_params, args):
     # Check required OR params
     required = False
     if req_or_params:
-        print("IS NOT NONE", req_or_params)
         for key in req_or_params:
             if key in args:
                 required = True
