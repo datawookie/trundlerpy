@@ -89,7 +89,7 @@ Get a list of products for a specific retailer.
 tr.retailer_products(5)
 ```
 
-Products can be filtered by name and brand or SKU.
+Products can be filtered by name, brand or SKU.
 
 ```python
 tr.retailer_products(5, product = "coffee", brand = "nespresso")
